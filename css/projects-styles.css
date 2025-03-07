@@ -1,6 +1,5 @@
 body{
     position:relative;
-    top: 1em;
     color:white
 }
 
@@ -21,7 +20,6 @@ h2{
     margin: 0;
     position: relative;
     top: 0;
-    /* background-color: aqua; */
 }
 
 .project{
@@ -49,6 +47,6 @@ ul{
     list-style: none;
 }
 
-h3,p,ul{
+div h3, div p, div ul{
     margin: 0;
 }
