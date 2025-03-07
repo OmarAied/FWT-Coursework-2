@@ -4,6 +4,7 @@
     grid-template-columns: 1fr 2fr 1fr;
     gap: 1em;
     padding: 1em;
+    padding-bottom: 6em;
     position: relative;
     top: 5em;
 }
@@ -78,6 +79,11 @@ main {
     background-color: #223247;
     border-radius: 10px;
 }
+
+.links img {
+    width: 5em;
+}
+
 .skills ol {
     padding-left: 1em;
     list-style: none;
