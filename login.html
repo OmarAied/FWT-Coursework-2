@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href=
@@ -30,6 +31,25 @@
         </nav>
     </header>
 
-    <h2>LOGIN</h2>
+    <form method="GET" action="">
+        <fieldset id = "main">
+            <legend>LOGIN</legend>
+            <p>
+                <label for="email">Email Address</label> <br>
+                <input type="email" name="email" placeholder="johnsmith@email.com">
+            </p>
+
+            <p>
+                <label for="password">Password</label> <br>
+                <input type="password" name="password" placeholder="password123">
+            </p>
+            <footer>                
+                <div class="buttons">
+                    <br>
+                    <button type="submit">Submit</button>
+                </div>
+            </footer>
+        </fieldset>
+
 </body>
 </html>

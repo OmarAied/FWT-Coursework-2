@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post</title>
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/loginAndPost.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href=
@@ -30,6 +31,27 @@
         </nav>
     </header>
 
-    <h2>POST</h2>
+    <form method="GET" action="">
+        <fieldset id = "main">
+            <legend>BLOG POST</legend>
+            <p>
+                <label for="name">Name</label> <br>
+                <input type="text" name="name" placeholder="John Smith">
+            </p>
+
+            <p>
+                <label for="blog">Blog contents</label> <br>
+                <textarea id="blog" name="blog" placeholder="Write your blog here" rows="10" cols="50"></textarea>
+            </p>
+            <footer>                
+                <div class="buttons">
+                    <br>
+                    <button type="submit">Submit</button>
+                    <br>
+                    <button type="clear">Clear</button>
+                </div>
+            </footer>
+        </fieldset>
+
 </body>
 </html>
