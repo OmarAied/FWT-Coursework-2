@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 ul li a:hover {
-    color: #e31b6d;
+    color: #018a54;
     transition: color 0.3s;
   }
 
@@ -97,6 +97,7 @@ ul li a:hover {
 .socials a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 .socials{
     display: flex;
@@ -104,7 +105,7 @@ ul li a:hover {
     align-items: center;
 }
 .socials a:hover {
-    color: #e31b6d;
+    color: #018a54;
     transition: color 0.3s;
 }
 .socials img:hover {
