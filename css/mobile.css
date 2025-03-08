@@ -1,7 +1,5 @@
 @media only screen and (max-width: 768px) {
-    /* Apply mobile-friendly styles */
-
-    /* Adjust grid layout */
+    /* Adjust grid layout on home page*/
     .container {
         display: flex;
         flex-direction: column;
@@ -20,7 +18,6 @@
     main {
         order: -1;
     }
-
 
     /* Center profile image and text */
     .profile {
