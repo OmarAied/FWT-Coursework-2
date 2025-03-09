@@ -54,7 +54,7 @@ nav ul li a {
 ul li a:hover {
     color: #018a54;
     transition: color 0.3s;
-  }
+}
 
 .checkbtn {
     font-size: 30px;
