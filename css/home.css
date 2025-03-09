@@ -2,7 +2,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    gap: 1em;
+    gap: 2em;
     padding: 1em;
     padding-bottom: 6em;
     position: relative;
@@ -10,13 +10,17 @@
 }
 
 /* leftSidebar & Right Sidebar */
-.leftSidebar, .rightSidebar {
+.leftSidebar, .rightSidebar , main{
     background-color: white;
     color: white;
     font-weight: bold;
     padding: 20px;
     border-radius: 50px;
-    box-shadow: 20px 20px 50px #ae0049;;
+    box-shadow: 0px 0px 50px #018a54;
+}
+main{
+    font-weight: normal;
+    color:black;
 }
 
 .leftSidebar h2, .rightSidebar h2 {
@@ -47,13 +51,13 @@
 }
 
 /* Main Content */
-main {
+/* main {
     background-color: white;
     padding: 20px;
     border-radius: 50px;
-    box-shadow: 20px 20px 50px #ae0049;
+    box-shadow: 20px 20px 50px #018a54;
     color: black;
-}
+} */
 
 .profile {
     display: flex;
