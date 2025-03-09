@@ -14,15 +14,14 @@
         padding: 0.5em;
     }
 
-    /* Main Content */
+    /* Ensure profile section comes first */
     main {
         order: -1;
     }
 
-    /* Center profile image and text */
-    .profile {
-        flex-direction: column;
-        text-align: center;
+    /* Adjust pfp size */
+    .profile img {
+        width: 100%;
     }
 
     /* Sidebar adjustments */
