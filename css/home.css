@@ -50,15 +50,6 @@ main{
     padding: 5px 0;
 }
 
-/* Main Content */
-/* main {
-    background-color: white;
-    padding: 20px;
-    border-radius: 50px;
-    box-shadow: 20px 20px 50px #018a54;
-    color: black;
-} */
-
 .profile {
     display: flex;
     align-items: center;
